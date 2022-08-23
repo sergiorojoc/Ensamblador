@@ -1,0 +1,23 @@
+ALGORITMO HOTEL.
+
+Escribir: "¿Cuantos dìas se hospedarà?";
+leer i;
+inicializar: tarifa como 0;
+inicializar: tarifados como verdadero;
+inicializar: s como 1;
+
+Mientras que i sea mayor o igual que 1
+	Escribir: "El dìa", s, "pagarà: ";
+	Si
+	Escribir: "1200";
+	Sumar: tarifa mas 1200;
+	De otro modo
+	Escribir: "950";
+	Sumar: tarifa mas 950;
+
+	Restar: 1 a i;
+	Sumar; 1 a s;
+	Hacer tarifados como falso;
+	
+	Escribir: "El total a pagar es: ", tarifa;
+Fin.
